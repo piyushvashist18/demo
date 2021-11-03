@@ -1,14 +1,40 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+   "responseHeader":    {
+      "code": "200.5055.1000",
+      "message": "Request Processed Successfully",
+      "processedDateTime": "2021-10-21T20:28:40.485Z",
+      "businessTransactionId": "asdfasdasd"
+   },
+   "responseData":    {
+      "SAN": "223234423",
+      "action": "networkCoverage",
+      "networkProvidersData": [      {
+         "providerName": "TMobile",
+         "providerData": [         {
+            "latitude": "039.17901",
+            "longitude": "-077.24311",
+            "timeZone": "Eastern",
+            "gmtOffset": -5,
+            "gmtDstOffset": -4,
+            "siteDistance": 0.2946059634492035,
+            "distanceUnit": "Miles",
+            "gsmSignal": "Commercial",
+            "umtsSignal": "Commercial",
+            "status3G4G": "4G",
+            "lteBand4Signal": "Commercial",
+            "lteBand2Signal": "Commercial",
+            "lteBand12Signal": "Commercial",
+            "bandU1900": "Commercial",
+            "bandU2100": "outside of coverage",
+            "bandL600": "Commercial",
+            "roamingStatus": "outside of roaming coverage",
+            "nbiotMidBand": "Commercial",
+            "nbiotLowBand": "outside of coverage"
+         }]
+      }],
+      "relatedParty": [      {
+         "name": "TMobile",
+         "role": "Service Provider"
+      }]
+   }
 }
